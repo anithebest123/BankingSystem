@@ -1,12 +1,12 @@
 package Exceptions;
 
-public class AccNotFound extends Exception {
+public class InvalidAmount extends Exception {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	public AccNotFound(String s)
+	public InvalidAmount(String s)
 	{
 		super(s);
 	}

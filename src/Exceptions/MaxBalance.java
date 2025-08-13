@@ -1,12 +1,13 @@
 package Exceptions;
 
-public class AccNotFound extends Exception {
+public class MaxBalance extends Exception {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	public AccNotFound(String s)
+	
+	public MaxBalance(String s)
 	{
 		super(s);
 	}
